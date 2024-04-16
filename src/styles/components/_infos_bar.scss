@@ -1,19 +1,23 @@
-.infos-bar {
-    padding: 16px 24px;
+.information, .infos{
     background-color: #fff;
+    padding: 24px 16px;
+    display: flex;
+    justify-content: space-between;
 
     &__infos {
         display: flex;
-        gap: 40px; // distancia de um para o outro entre a proxim ind
+        gap: 40px;
 
             &__item{
                 font-size: 14px;
                 color: #000;
+                display: block;
 
                     b {
                         font-size: 18px;
+                        //display: block;
+                        color: #000;
                     }
+                }
             }
-    }
-
 }
