@@ -2,18 +2,19 @@
     padding: 80px;
     background-color: green;
 
-    .containerE {
+    .container {
         display: flex;
     }
-
     &__image {
         max-width: 360px;
     }
+    &__details {
+        margin-right: 40px;
 
-    &__detail {
         &__title {
             font-size: 18px;
             font-weight: bold;
+            margin-bottom: 16px;
         }
 
         &__description {
