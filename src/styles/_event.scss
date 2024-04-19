@@ -1,6 +1,23 @@
+@use 'variables';
+
 .event {
     padding: 80px;
-    background-image: linear-gradient(#1B6CA7,#442BDB);
+
+    &--frontend {
+        background-image: linear-gradient(variables.$blue1,variables.$blue2);
+    }
+
+    &--ux-ui {
+        background-image: linear-gradient(variables.$blue2,variables.$pink);
+    }
+
+    &--data-science {
+        background-image: linear-gradient(variables.$pink,variables.$yellow);
+    }
+
+    &--backend {
+        background-image: linear-gradient(variables.$yellow,variables.$pink);
+    }
     
 
     .container {
